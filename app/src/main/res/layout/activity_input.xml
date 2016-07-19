@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/input_toolbar"
+        android:layout_width="match_parent"
+        android:background="#363636"
+        android:layout_height="?attr/actionBarSize">
+        <Button
+            android:id="@+id/sendmes_but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="发送"/>
+    </android.support.v7.widget.Toolbar>
+    <EditText
+        android:gravity="top"
+        android:id="@+id/et"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
